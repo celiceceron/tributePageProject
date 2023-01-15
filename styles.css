@@ -11,7 +11,7 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    color: red;
+    color: #333;
     margin: 0;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -27,10 +27,10 @@ body {
 * {
     color: black;
 }
-  
-  a:visited {
+
+a:visited {
     color: #74638f;
-  }
+}
 
 main {
     margin: 30px 8px;
@@ -40,7 +40,7 @@ main {
 }
 
 @media (max-width: 460px) {
-    #main {
+    main {
         margin: 0;
     }
 }
@@ -53,13 +53,13 @@ img {
     margin: 0 auto;
 }
 
-.img-div {
-    background-color: red;
+#img-div {
+    background: white;
     padding: 10px;
     margin: 0;
 }
 
-.img-caption {
+#img-caption {
     margin: 15px 0 5px 0;
 }
 
@@ -74,11 +74,6 @@ img {
     text-align: center;
 }
 
-
-.headline {
-    margin: 50px 0;
-    text-align: center;
-  }
 
 ul {
     max-width: 550px;
